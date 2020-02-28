@@ -27,6 +27,8 @@ boxplot(EDUC~VOTE12, data=Ourdata)
 
 It appears that the average years of education between those who voted in 2012 is a little more higher than those who did not vote. 
 
+## Numerical Summary 
+
 ```{r}
 favstats(EDUC~VOTE12, data=Ourdata)
 ```
