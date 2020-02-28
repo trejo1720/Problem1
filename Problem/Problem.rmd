@@ -17,4 +17,4 @@ Ourdata <- read.csv(file="GSScsv.csv")
 
 $H_0$ No difference in average years of education between those who voted in 2012 and those who did not vote. 
 
-$H_a$ There is a difference in average years of education between those who voted in 2012 and those who did not.
+$H_a$ There is a difference in average years of education between those who voted in 2012 and those who did not. 
