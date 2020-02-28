@@ -18,3 +18,19 @@ Ourdata <- read.csv(file="GSScsv.csv")
 $H_0$ No difference in average years of education between those who voted in 2012 and those who did not vote. 
 
 $H_a$ There is a difference in average years of education between those who voted in 2012 and those who did not. 
+
+## Graphical Summary 
+
+```{r}
+boxplot(EDUC~VOTE12, data=Ourdata)
+```
+
+It appears that the average years of education between those who voted in 2012 is a little more higher than those who did not vote. 
+
+```{r}
+favstats(EDUC~VOTE12, data=Ourdata)
+```
+
+```{r}
+t.test(EDUC~VOTE12, data=Ourdata)
+```
