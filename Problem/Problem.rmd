@@ -33,6 +33,11 @@ It appears that the average years of education between those who voted in 2012 i
 favstats(EDUC~VOTE12, data=Ourdata)
 ```
 
+## Inferential test
+
 ```{r}
 t.test(EDUC~VOTE12, data=Ourdata)
 ```
+
+## Conclusion
+The p-value from the t-test is 0.005, this is less than 0.05, so we reject the null hypothesis and conclude we have evidence that there is a difference between the average years of education for those who voted in 2012and those who didn't vote in 2012.
